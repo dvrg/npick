@@ -1,0 +1,39 @@
+.unicons-icon-picker {
+    position: absolute;
+    background: #fcfcfc;
+    text-align: center;
+    box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    z-index: 9;
+  }
+  
+  .unicons-icon-picker:focus {
+    outline: none;
+  }
+  
+  .unicons-icon-picker-prefix {
+    top: .5rem;
+  }
+  
+  .unicons-icon-picker .icons {
+    max-height: 200px;
+    overflow-x: scroll;
+  }
+  
+  div.unicons-icon-picker input[type="text"] {
+    width: 100%;
+  }
+  
+  .unicons-icon-picker .uil {
+    font-size: 30px;
+    cursor: pointer;
+    border-radius: 50%;
+    padding: 10px;
+    margin: 3px;
+    transition: .2s;
+  }
+  
+  .unicons-icon-picker .uil:hover {
+    background: #ececec;
+  }
+  
